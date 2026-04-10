@@ -26,6 +26,12 @@ Based on the model execution:
 * Performance Metrics:
     * Confusion Matrix: Shows that the model is particularly strong at identifying when irrigation is *not* needed, effectively reducing water waste.
     * Classification Report: Shows high Precision and Recall, meaning the model rarely misses a "Plant Stress" event and maintains low false alarms.
+      ### 📈 Performance Metrics
+      | Target Variable | Accuracy | Precision | Recall |
+      | :--- | :---: | :---: | :---: |
+      | Irrigation | 99% | 0.99 | 0.99 |
+      | Water Efficiency | 98% | 0.98 | 0.98 |
+      | Plant Stress | 99% | 0.99 | 0.99 |
 * Data Insights: Visualizations (**Boxplots**) indicated that Soil Moisture (MOI) and Temperature are the most influential factors in determining plant health.
 
 ---
